@@ -19,4 +19,5 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd C:\inetpub\hello-world
+            mkdir tonyhouse
             git pull

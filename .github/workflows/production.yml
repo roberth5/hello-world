@@ -18,6 +18,9 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
+            echo cding
             cd C:\inetpub\hello-world
+            echo mkdiring
             mkdir tonyhouse
+            echo gitpulling
             git pull
